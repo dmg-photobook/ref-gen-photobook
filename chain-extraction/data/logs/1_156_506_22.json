@@ -1,0 +1,1153 @@
+{
+  "game_id": 1,
+  "domain_id": 22,
+  "agent_ids": [
+    156,
+    506
+  ],
+  "agent_labels": [
+    "A",
+    "B"
+  ],
+  "start_time": "2018-04-13T23:08:21.901772",
+  "feedback": {
+    "B": "col:5<&>partner_u:5<&>self_u:5<&>text:no",
+    "A": "col:5<&>partner_u:5<&>self_u:5<&>text:Thiswasfun!"
+  },
+  "rounds": [
+    {
+      "round_nr": 1,
+      "score": {
+        "A": 3,
+        "B": 3
+      },
+      "images": {
+        "A": [
+          "person_surfboard/COCO_train2014_000000079720.jpg",
+          "person_surfboard/COCO_train2014_000000314741.jpg",
+          "person_surfboard/COCO_train2014_000000083580.jpg",
+          "person_surfboard/COCO_train2014_000000287084.jpg",
+          "person_surfboard/COCO_train2014_000000374388.jpg",
+          "person_surfboard/COCO_train2014_000000387812.jpg"
+        ],
+        "B": [
+          "person_surfboard/COCO_train2014_000000387812.jpg",
+          "person_surfboard/COCO_train2014_000000572061.jpg",
+          "person_surfboard/COCO_train2014_000000515743.jpg",
+          "person_surfboard/COCO_train2014_000000314741.jpg",
+          "person_surfboard/COCO_train2014_000000083580.jpg",
+          "person_surfboard/COCO_train2014_000000079720.jpg"
+        ]
+      },
+      "common": [
+        "person_surfboard/COCO_train2014_000000083580.jpg",
+        "person_surfboard/COCO_train2014_000000314741.jpg",
+        "person_surfboard/COCO_train2014_000000079720.jpg",
+        "person_surfboard/COCO_train2014_000000387812.jpg"
+      ],
+      "highlighted": {
+        "A": [
+          true,
+          true,
+          false,
+          false,
+          true,
+          false
+        ],
+        "B": [
+          false,
+          true,
+          false,
+          true,
+          false,
+          true
+        ]
+      },
+      "messages": [
+        {
+          "timestamp": "00:00:00",
+          "turn": 0,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "I have a woman with a surfboard and yellow bikini"
+        },
+        {
+          "timestamp": "00:00:07.079985",
+          "turn": 1,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<selection> <com> person_surfboard/COCO_train2014_000000079720.jpg"
+        },
+        {
+          "timestamp": "00:00:11.151946",
+          "turn": 1,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "Me too."
+        },
+        {
+          "timestamp": "00:00:14.971828",
+          "turn": 2,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <com> person_surfboard/COCO_train2014_000000079720.jpg"
+        },
+        {
+          "timestamp": "00:00:26.467923",
+          "turn": 2,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "I have an asian man with red and white hat with green surfboard"
+        },
+        {
+          "timestamp": "00:00:33.830173",
+          "turn": 3,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "Yes!"
+        },
+        {
+          "timestamp": "00:00:37.975319",
+          "turn": 4,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <com> person_surfboard/COCO_train2014_000000314741.jpg"
+        },
+        {
+          "timestamp": "00:00:46.088478",
+          "turn": 4,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<selection> <com> person_surfboard/COCO_train2014_000000314741.jpg"
+        },
+        {
+          "timestamp": "00:00:57.199353",
+          "turn": 4,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "I have a white guy holding a surfboard above his head"
+        },
+        {
+          "timestamp": "00:01:09.875350",
+          "turn": 5,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "I dont have that one."
+        },
+        {
+          "timestamp": "00:01:15.516032",
+          "turn": 6,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <dif> person_surfboard/COCO_train2014_000000374388.jpg"
+        },
+        {
+          "timestamp": "00:01:16.670246",
+          "turn": 6,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "What about two girls in water and little boy."
+        },
+        {
+          "timestamp": "00:01:22.504009",
+          "turn": 7,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "No"
+        },
+        {
+          "timestamp": "00:01:24.941025",
+          "turn": 8,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<selection> <dif> person_surfboard/COCO_train2014_000000572061.jpg"
+        },
+        {
+          "timestamp": "00:01:27.152000",
+          "turn": 8,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "okay"
+        },
+        {
+          "timestamp": "00:01:30.884034",
+          "turn": 9,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<feedback>"
+        },
+        {
+          "timestamp": "00:01:32.520023",
+          "turn": 9,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "It is different then"
+        },
+        {
+          "timestamp": "00:01:36.646260",
+          "turn": 10,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "yes"
+        },
+        {
+          "timestamp": "00:01:39.216033",
+          "turn": 11,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<feedback>"
+        },
+        {
+          "timestamp": "00:01:47.048062",
+          "turn": 11,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<next_round>"
+        },
+        {
+          "timestamp": "00:01:52.512056",
+          "turn": 12,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<next_round>"
+        }
+      ]
+    },
+    {
+      "round_nr": 2,
+      "score": {
+        "A": 3,
+        "B": 3
+      },
+      "images": {
+        "A": [
+          "person_surfboard/COCO_train2014_000000083580.jpg",
+          "person_surfboard/COCO_train2014_000000314741.jpg",
+          "person_surfboard/COCO_train2014_000000111385.jpg",
+          "person_surfboard/COCO_train2014_000000374388.jpg",
+          "person_surfboard/COCO_train2014_000000097094.jpg",
+          "person_surfboard/COCO_train2014_000000515743.jpg"
+        ],
+        "B": [
+          "person_surfboard/COCO_train2014_000000079720.jpg",
+          "person_surfboard/COCO_train2014_000000515743.jpg",
+          "person_surfboard/COCO_train2014_000000097094.jpg",
+          "person_surfboard/COCO_train2014_000000340331.jpg",
+          "person_surfboard/COCO_train2014_000000374388.jpg",
+          "person_surfboard/COCO_train2014_000000314741.jpg"
+        ]
+      },
+      "common": [
+        "person_surfboard/COCO_train2014_000000314741.jpg",
+        "person_surfboard/COCO_train2014_000000374388.jpg",
+        "person_surfboard/COCO_train2014_000000515743.jpg",
+        "person_surfboard/COCO_train2014_000000097094.jpg"
+      ],
+      "highlighted": {
+        "A": [
+          false,
+          true,
+          true,
+          true,
+          false,
+          false
+        ],
+        "B": [
+          true,
+          false,
+          false,
+          false,
+          true,
+          true
+        ]
+      },
+      "messages": [
+        {
+          "timestamp": "00:02:04.661007",
+          "turn": 0,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "I have yellow biking again"
+        },
+        {
+          "timestamp": "00:02:10.267309",
+          "turn": 1,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "No"
+        },
+        {
+          "timestamp": "00:02:17.983910",
+          "turn": 2,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "What about the asian man?"
+        },
+        {
+          "timestamp": "00:02:18.514331",
+          "turn": 3,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "I have the Asian guy from the last one"
+        },
+        {
+          "timestamp": "00:02:22.972582",
+          "turn": 4,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<selection> <com> person_surfboard/COCO_train2014_000000314741.jpg"
+        },
+        {
+          "timestamp": "00:02:24.584014",
+          "turn": 4,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <com> person_surfboard/COCO_train2014_000000314741.jpg"
+        },
+        {
+          "timestamp": "00:02:25.144090",
+          "turn": 4,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "yes!"
+        },
+        {
+          "timestamp": "00:02:40.756003",
+          "turn": 5,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "A man with a surfboard over his head and he has a beard?"
+        },
+        {
+          "timestamp": "00:02:47.575909",
+          "turn": 6,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "Yes!"
+        },
+        {
+          "timestamp": "00:02:49.612020",
+          "turn": 7,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <com> person_surfboard/COCO_train2014_000000374388.jpg"
+        },
+        {
+          "timestamp": "00:02:50.348015",
+          "turn": 7,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<selection> <com> person_surfboard/COCO_train2014_000000374388.jpg"
+        },
+        {
+          "timestamp": "00:02:52.471490",
+          "turn": 7,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<selection> <dif> person_surfboard/COCO_train2014_000000079720.jpg"
+        },
+        {
+          "timestamp": "00:02:57.669485",
+          "turn": 7,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "ok all set!"
+        },
+        {
+          "timestamp": "00:02:59.588744",
+          "turn": 8,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<feedback>"
+        },
+        {
+          "timestamp": "00:03:06.766146",
+          "turn": 8,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "No"
+        },
+        {
+          "timestamp": "00:03:25.185499",
+          "turn": 9,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "whats missing?"
+        },
+        {
+          "timestamp": "00:03:32.455881",
+          "turn": 10,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "What about the guy with a surf board standing next to it"
+        },
+        {
+          "timestamp": "00:03:37.596024",
+          "turn": 11,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "i do not"
+        },
+        {
+          "timestamp": "00:04:01.069108",
+          "turn": 12,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "ok that one is different then"
+        },
+        {
+          "timestamp": "00:04:05.960004",
+          "turn": 13,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "okay."
+        },
+        {
+          "timestamp": "00:04:16.186158",
+          "turn": 14,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<feedback>"
+        },
+        {
+          "timestamp": "00:04:54.980000",
+          "turn": 14,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "raedy to submit?"
+        },
+        {
+          "timestamp": "00:04:58.675986",
+          "turn": 15,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "ready*"
+        },
+        {
+          "timestamp": "00:07:39.351991",
+          "turn": 16,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "bgdfgdfg"
+        },
+        {
+          "timestamp": "00:08:39.720051",
+          "turn": 17,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "yes"
+        },
+        {
+          "timestamp": "00:08:42.078222",
+          "turn": 18,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <com> person_surfboard/COCO_train2014_000000314741.jpg"
+        },
+        {
+          "timestamp": "00:08:43.428773",
+          "turn": 18,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <com> person_surfboard/COCO_train2014_000000374388.jpg"
+        },
+        {
+          "timestamp": "00:08:47.542228",
+          "turn": 18,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <dif> person_surfboard/COCO_train2014_000000111385.jpg"
+        },
+        {
+          "timestamp": "00:09:00.243320",
+          "turn": 18,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "I lost my internet for a second"
+        },
+        {
+          "timestamp": "00:09:02.442235",
+          "turn": 19,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<feedback>"
+        },
+        {
+          "timestamp": "00:09:13.732033",
+          "turn": 19,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<next_round>"
+        },
+        {
+          "timestamp": "00:09:35.544439",
+          "turn": 20,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<next_round>"
+        }
+      ]
+    },
+    {
+      "round_nr": 3,
+      "score": {
+        "A": 3,
+        "B": 2
+      },
+      "images": {
+        "A": [
+          "person_surfboard/COCO_train2014_000000572061.jpg",
+          "person_surfboard/COCO_train2014_000000111385.jpg",
+          "person_surfboard/COCO_train2014_000000374388.jpg",
+          "person_surfboard/COCO_train2014_000000515743.jpg",
+          "person_surfboard/COCO_train2014_000000204735.jpg",
+          "person_surfboard/COCO_train2014_000000340331.jpg"
+        ],
+        "B": [
+          "person_surfboard/COCO_train2014_000000374388.jpg",
+          "person_surfboard/COCO_train2014_000000287084.jpg",
+          "person_surfboard/COCO_train2014_000000097094.jpg",
+          "person_surfboard/COCO_train2014_000000111385.jpg",
+          "person_surfboard/COCO_train2014_000000340331.jpg",
+          "person_surfboard/COCO_train2014_000000204735.jpg"
+        ]
+      },
+      "common": [
+        "person_surfboard/COCO_train2014_000000374388.jpg",
+        "person_surfboard/COCO_train2014_000000340331.jpg",
+        "person_surfboard/COCO_train2014_000000204735.jpg",
+        "person_surfboard/COCO_train2014_000000111385.jpg"
+      ],
+      "highlighted": {
+        "A": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        "B": [
+          true,
+          false,
+          false,
+          true,
+          true,
+          false
+        ]
+      },
+      "messages": [
+        {
+          "timestamp": "00:09:46.220004",
+          "turn": 0,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "Are you there?"
+        },
+        {
+          "timestamp": "00:09:52.467465",
+          "turn": 1,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "yes"
+        },
+        {
+          "timestamp": "00:10:01.460007",
+          "turn": 2,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "I have man with surfboard over his head again"
+        },
+        {
+          "timestamp": "00:10:09.241288",
+          "turn": 3,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "Yep!"
+        },
+        {
+          "timestamp": "00:10:11.347351",
+          "turn": 4,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <com> person_surfboard/COCO_train2014_000000374388.jpg"
+        },
+        {
+          "timestamp": "00:10:16.154259",
+          "turn": 4,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "i have white male with black suit standing next to surfboard"
+        },
+        {
+          "timestamp": "00:10:18.554214",
+          "turn": 5,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<selection> <com> person_surfboard/COCO_train2014_000000374388.jpg"
+        },
+        {
+          "timestamp": "00:10:23.331995",
+          "turn": 5,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "I have two girls and a boy"
+        },
+        {
+          "timestamp": "00:10:29.440539",
+          "turn": 6,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "I do not"
+        },
+        {
+          "timestamp": "00:10:36.939514",
+          "turn": 7,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "Do you have thw white male "
+        },
+        {
+          "timestamp": "00:10:42.039995",
+          "turn": 8,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "I have a man standing next to his surfboard"
+        },
+        {
+          "timestamp": "00:10:48.327747",
+          "turn": 9,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <dif> person_surfboard/COCO_train2014_000000572061.jpg"
+        },
+        {
+          "timestamp": "00:10:49.932011",
+          "turn": 9,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <com> person_surfboard/COCO_train2014_000000111385.jpg"
+        },
+        {
+          "timestamp": "00:10:54.250728",
+          "turn": 9,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "white surfboard with orange"
+        },
+        {
+          "timestamp": "00:10:56.757494",
+          "turn": 10,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "?"
+        },
+        {
+          "timestamp": "00:11:17.748015",
+          "turn": 11,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "Is he wear a surf suit thing?"
+        },
+        {
+          "timestamp": "00:11:26.854218",
+          "turn": 12,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "yes, black"
+        },
+        {
+          "timestamp": "00:11:29.992012",
+          "turn": 13,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<selection> <com> person_surfboard/COCO_train2014_000000111385.jpg"
+        },
+        {
+          "timestamp": "00:11:32.536007",
+          "turn": 13,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "Yep"
+        },
+        {
+          "timestamp": "00:11:42.675532",
+          "turn": 14,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "Do you have boy carrying red surfboard?"
+        },
+        {
+          "timestamp": "00:11:46.728052",
+          "turn": 15,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "No"
+        },
+        {
+          "timestamp": "00:11:54.038625",
+          "turn": 16,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "I'm ready"
+        },
+        {
+          "timestamp": "00:12:02.717411",
+          "turn": 17,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<feedback>"
+        },
+        {
+          "timestamp": "00:12:02.943985",
+          "turn": 17,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<selection> <dif> person_surfboard/COCO_train2014_000000340331.jpg"
+        },
+        {
+          "timestamp": "00:12:04.874206",
+          "turn": 17,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "ok"
+        },
+        {
+          "timestamp": "00:12:06.642329",
+          "turn": 18,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<feedback>"
+        },
+        {
+          "timestamp": "00:12:08.640007",
+          "turn": 18,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<next_round>"
+        },
+        {
+          "timestamp": "00:12:25.043994",
+          "turn": 19,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<next_round>"
+        }
+      ]
+    },
+    {
+      "round_nr": 4,
+      "score": {
+        "A": 3,
+        "B": 2
+      },
+      "images": {
+        "A": [
+          "person_surfboard/COCO_train2014_000000111385.jpg",
+          "person_surfboard/COCO_train2014_000000097094.jpg",
+          "person_surfboard/COCO_train2014_000000572061.jpg",
+          "person_surfboard/COCO_train2014_000000079720.jpg",
+          "person_surfboard/COCO_train2014_000000204735.jpg",
+          "person_surfboard/COCO_train2014_000000287084.jpg"
+        ],
+        "B": [
+          "person_surfboard/COCO_train2014_000000097094.jpg",
+          "person_surfboard/COCO_train2014_000000340331.jpg",
+          "person_surfboard/COCO_train2014_000000287084.jpg",
+          "person_surfboard/COCO_train2014_000000515743.jpg",
+          "person_surfboard/COCO_train2014_000000083580.jpg",
+          "person_surfboard/COCO_train2014_000000387812.jpg"
+        ]
+      },
+      "common": [
+        "person_surfboard/COCO_train2014_000000287084.jpg",
+        "person_surfboard/COCO_train2014_000000097094.jpg"
+      ],
+      "highlighted": {
+        "A": [
+          true,
+          false,
+          true,
+          true,
+          false,
+          false
+        ],
+        "B": [
+          true,
+          true,
+          false,
+          false,
+          false,
+          true
+        ]
+      },
+      "messages": [
+        {
+          "timestamp": "00:12:49.740062",
+          "turn": 0,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "Same guy standing next to surboard"
+        },
+        {
+          "timestamp": "00:12:56.939998",
+          "turn": 1,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "no."
+        },
+        {
+          "timestamp": "00:12:59.638224",
+          "turn": 2,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <dif> person_surfboard/COCO_train2014_000000111385.jpg"
+        },
+        {
+          "timestamp": "00:13:10.431543",
+          "turn": 2,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "Girl with bikini from before?"
+        },
+        {
+          "timestamp": "00:13:14.951995",
+          "turn": 3,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "Red surfboard again?"
+        },
+        {
+          "timestamp": "00:13:20.052029",
+          "turn": 4,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "I do not have bikini."
+        },
+        {
+          "timestamp": "00:13:23.314994",
+          "turn": 5,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "No"
+        },
+        {
+          "timestamp": "00:13:32.704359",
+          "turn": 6,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "Do you have two men with two surfboards?"
+        },
+        {
+          "timestamp": "00:13:33.140821",
+          "turn": 7,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "Three kids in the wter"
+        },
+        {
+          "timestamp": "00:13:37.266212",
+          "turn": 8,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "no kids."
+        },
+        {
+          "timestamp": "00:13:40.008548",
+          "turn": 9,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "No"
+        },
+        {
+          "timestamp": "00:13:41.620017",
+          "turn": 10,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <dif> person_surfboard/COCO_train2014_000000079720.jpg"
+        },
+        {
+          "timestamp": "00:13:43.024009",
+          "turn": 10,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <dif> person_surfboard/COCO_train2014_000000572061.jpg"
+        },
+        {
+          "timestamp": "00:13:43.166703",
+          "turn": 10,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<selection> <dif> person_surfboard/COCO_train2014_000000387812.jpg"
+        },
+        {
+          "timestamp": "00:13:44.458212",
+          "turn": 10,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<selection> <dif> person_surfboard/COCO_train2014_000000340331.jpg"
+        },
+        {
+          "timestamp": "00:13:50.520040",
+          "turn": 10,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "They are all different?"
+        },
+        {
+          "timestamp": "00:13:53.947992",
+          "turn": 11,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "Guy on surfboard "
+        },
+        {
+          "timestamp": "00:13:58.243995",
+          "turn": 12,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "i think so"
+        },
+        {
+          "timestamp": "00:13:59.816048",
+          "turn": 13,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "No"
+        },
+        {
+          "timestamp": "00:14:00.352417",
+          "turn": 14,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<selection> <dif> person_surfboard/COCO_train2014_000000097094.jpg"
+        },
+        {
+          "timestamp": "00:14:05.053307",
+          "turn": 14,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "ok so different"
+        },
+        {
+          "timestamp": "00:14:05.121898",
+          "turn": 15,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<feedback>"
+        },
+        {
+          "timestamp": "00:14:06.928975",
+          "turn": 15,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<feedback>"
+        },
+        {
+          "timestamp": "00:14:11.548672",
+          "turn": 15,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<next_round>"
+        },
+        {
+          "timestamp": "00:14:34.035990",
+          "turn": 16,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<next_round>"
+        }
+      ]
+    },
+    {
+      "round_nr": 5,
+      "score": {
+        "A": 3,
+        "B": 3
+      },
+      "images": {
+        "A": [
+          "person_surfboard/COCO_train2014_000000572061.jpg",
+          "person_surfboard/COCO_train2014_000000387812.jpg",
+          "person_surfboard/COCO_train2014_000000340331.jpg",
+          "person_surfboard/COCO_train2014_000000111385.jpg",
+          "person_surfboard/COCO_train2014_000000083580.jpg",
+          "person_surfboard/COCO_train2014_000000204735.jpg"
+        ],
+        "B": [
+          "person_surfboard/COCO_train2014_000000287084.jpg",
+          "person_surfboard/COCO_train2014_000000079720.jpg",
+          "person_surfboard/COCO_train2014_000000572061.jpg",
+          "person_surfboard/COCO_train2014_000000314741.jpg",
+          "person_surfboard/COCO_train2014_000000204735.jpg",
+          "person_surfboard/COCO_train2014_000000387812.jpg"
+        ]
+      },
+      "common": [
+        "person_surfboard/COCO_train2014_000000204735.jpg",
+        "person_surfboard/COCO_train2014_000000572061.jpg",
+        "person_surfboard/COCO_train2014_000000387812.jpg"
+      ],
+      "highlighted": {
+        "A": [
+          true,
+          false,
+          true,
+          true,
+          false,
+          false
+        ],
+        "B": [
+          false,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "messages": [
+        {
+          "timestamp": "00:14:40.152034",
+          "turn": 0,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "yellow bikini"
+        },
+        {
+          "timestamp": "00:14:52.004451",
+          "turn": 1,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "Three kids in the water"
+        },
+        {
+          "timestamp": "00:14:55.743309",
+          "turn": 2,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "yes"
+        },
+        {
+          "timestamp": "00:14:57.534319",
+          "turn": 3,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<selection> <com> person_surfboard/COCO_train2014_000000572061.jpg"
+        },
+        {
+          "timestamp": "00:14:59.426976",
+          "turn": 3,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <com> person_surfboard/COCO_train2014_000000572061.jpg"
+        },
+        {
+          "timestamp": "00:15:02.150964",
+          "turn": 3,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "yellow bikini?"
+        },
+        {
+          "timestamp": "00:15:16.400850",
+          "turn": 4,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "Two boys holding surfboards?"
+        },
+        {
+          "timestamp": "00:15:16.646959",
+          "turn": 5,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "Asian man ?"
+        },
+        {
+          "timestamp": "00:15:20.540247",
+          "turn": 6,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "no"
+        },
+        {
+          "timestamp": "00:15:36.730204",
+          "turn": 7,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "No, bikini girl or Asian man"
+        },
+        {
+          "timestamp": "00:15:41.812005",
+          "turn": 8,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <dif> person_surfboard/COCO_train2014_000000111385.jpg"
+        },
+        {
+          "timestamp": "00:15:43.134290",
+          "turn": 8,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<selection> <dif> person_surfboard/COCO_train2014_000000340331.jpg"
+        },
+        {
+          "timestamp": "00:15:49.152003",
+          "turn": 8,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "ok so just the kids in common'"
+        },
+        {
+          "timestamp": "00:15:51.450224",
+          "turn": 9,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<selection> <dif> person_surfboard/COCO_train2014_000000079720.jpg"
+        },
+        {
+          "timestamp": "00:15:52.543190",
+          "turn": 9,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<selection> <dif> person_surfboard/COCO_train2014_000000314741.jpg"
+        },
+        {
+          "timestamp": "00:15:53.097304",
+          "turn": 9,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "Yep"
+        },
+        {
+          "timestamp": "00:15:54.744817",
+          "turn": 10,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<feedback>"
+        },
+        {
+          "timestamp": "00:15:56.616006",
+          "turn": 10,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<feedback>"
+        },
+        {
+          "timestamp": "00:16:17.251721",
+          "turn": 10,
+          "speaker": "B",
+          "agent_id": 506,
+          "message": "<usr_feedback> col:5<&>partner_u:5<&>self_u:5<&>text: no"
+        },
+        {
+          "timestamp": "00:16:29.819992",
+          "turn": 11,
+          "speaker": "A",
+          "agent_id": 156,
+          "message": "<usr_feedback> col:5<&>partner_u:5<&>self_u:5<&>text: This was fun!"
+        }
+      ]
+    }
+  ]
+}
