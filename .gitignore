@@ -6,7 +6,10 @@ __pycache__/
 # Private files
 chain-extraction/out
 chain-extraction/data/logs_spellchecked
+chain-extraction/data/logs_spellchecked_31oct
 chain-extraction/data/vocab
+chain-extraction/src/correct_typos.py
+chain-extraction/src/preprocess_logs.py
 
 # PyCharm
 .DS_Store
