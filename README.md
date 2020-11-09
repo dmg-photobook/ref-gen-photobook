@@ -1,6 +1,6 @@
 ## Refer, Reuse, Reduce: Generating Subsequent References in Visual and Conversational Contexts
 
-Repository for the EMNLP 2020 paper 'Refer, Reuse, Reduce: Generating Subsequent References in Visual and Conversational Contexts' by Ece Takmaz, Mario Giulianelli, Sandro Pezzelle, Arabella Sinclair and Raquel Fernández.
+Repository for the EMNLP 2020 paper ['Refer, Reuse, Reduce: Generating Subsequent References in Visual and Conversational Contexts'](https://www.aclweb.org/anthology/2020.emnlp-main.353/) by Ece Takmaz, Mario Giulianelli, Sandro Pezzelle, Arabella Sinclair and Raquel Fernández.
 
 \~Currently under construction\~
 
