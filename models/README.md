@@ -2,6 +2,8 @@
 
 \~Currently under construction\~
 
+Processed data and pretrained models will be available later, along with details on how to train and load the models.
+
 This directory contains the model definitions and scripts to train, evaluate and compare the models.
 
 Generation models (speaker):
@@ -13,5 +15,3 @@ Reference resolution models (listener):
 - One-hot baseline - BASELINE_1H
 - Ablation - att_ctx
 - Proposed - att_ctx_hist
-
-Processed data and pretrained models will be available later, along with details on how to train and load the models.
