@@ -1,0 +1,119 @@
+I: [386603, 161846, 356290, 395097, 86285, 310714]
+T: 86285
+U: <sos> i have two orders of french fries and three hot dogs <eos>
+P: <nohs>
+A: <nohs>
+R: ['i have two orders of french fries and three hot dogs', 'do you have the bowl of salad ?', 'i have the big bowl of salad', 'big bowl of salad']
+H42: i have a white bowl with a wine gla * s
+H1: do you have a picture of a brown dog on a table ?
+H2: do you have the white bowl with the fork and the beer
+H3: do you have a picture of a white bowl of a white bowl with the red and white bowl
+H4: white bowl with the background
+
+I: [244425, 260248, 86285, 492731, 386603, 132002]
+T: 86285
+U: <sos> do you have the bowl of salad ? <eos>
+P: <sos> i have two orders of french fries and three hot dogs <eos>
+A: <sos> i have two orders of french fries and three hot dogs <eos>
+R: ['i have two orders of french fries and three hot dogs', 'do you have the bowl of salad ?', 'i have the big bowl of salad', 'big bowl of salad']
+H42: i have the white bowl with wine gla * s
+H1: do you have a fork on a table ?
+H2: i have a white bowl of salad with a gla * s
+H3: do you have the one with a white bowl of a white bowl
+H4: white bowl
+
+I: [144797, 86285, 132002, 100022, 395097, 356290]
+T: 86285
+U: <sos> i have the big bowl of salad <eos>
+P: <sos> do you have the bowl of salad ? <eos>
+A: <sos> do you have the bowl of salad ? <eos>
+R: ['i have two orders of french fries and three hot dogs', 'do you have the bowl of salad ?', 'i have the big bowl of salad', 'big bowl of salad']
+H42: i have the bowl of the wine gla * s
+H1: do you have a picture of a brown dog on a table ?
+H2: do you have a white bowl with a fork on it
+H3: do you have the one with a white bowl with a fork on it
+H4: i have the white bowl with the background
+
+I: [244425, 395097, 86285, 386603, 260248, 161846]
+T: 86285
+U: <sos> big bowl of salad <eos>
+P: <sos> i have the big bowl of salad <eos>
+A: <sos> i have the big bowl of salad <eos>
+R: ['i have two orders of french fries and three hot dogs', 'do you have the bowl of salad ?', 'i have the big bowl of salad', 'big bowl of salad']
+H42: i have the white bowl with wine gla * s
+H1: do you have a picture of a fork on a table ?
+H2: do you have a white bowl of salad with a gla * s of wine
+H3: i have a picture of a white bowl with a fork
+H4: white bowl
+
+I: [86285, 386603, 132002, 260248, 492731, 244425]
+T: 86285
+U: <sos> do u have a white bowl filled with some leaves ( spinach ) or something in it ? <eos>
+P: <nohs>
+A: <nohs>
+R: ['do u have a white bowl filled with some leaves ( spinach ) or something in it ?', 'arugulat in white bowl on table with fork', 'leaves in a plate ?']
+H42: i have the white bowl with wine gla * s
+H1: do you have a picture of a brown dog on a table ?
+H2: do you have a white bowl with a cup of greens on it
+H3: do you have the one with a white bowl with a fork on it
+H4: white bowl
+
+I: [260248, 244425, 386603, 86285, 395097, 161846]
+T: 86285
+U: <sos> <unk> in white bowl on table with fork <eos>
+P: <sos> do u have a white bowl filled with some leaves ( spinach ) or something in it ? <eos>
+A: <sos> do u have a white bowl filled with some leaves ( spinach ) or something in it ? <eos>
+R: ['do u have a white bowl filled with some leaves ( spinach ) or something in it ?', 'arugulat in white bowl on table with fork', 'leaves in a plate ?']
+H42: i have the white bowl with the gla * s
+H1: do you have a photo of a brown dog on a table ?
+H2: do you have a white bowl with a fork on it
+H3: i also have the one with the one with the one with the tomato one with a salad
+H4: white bowl
+
+I: [161846, 86285, 100022, 310714, 395097, 260248]
+T: 86285
+U: <sos> leaves in a plate ? <eos>
+P: <sos> <unk> in white bowl on table with fork <eos>
+A: <sos> arugulat in white bowl on table with fork <eos>
+R: ['do u have a white bowl filled with some leaves ( spinach ) or something in it ?', 'arugulat in white bowl on table with fork', 'leaves in a plate ?']
+H42: i have the white bowl with a wine gla * s
+H1: do you have a picture of a fork on a table ?
+H2: do you have that one with a bowl of greens and a gla * s of wine gla * s
+H3: do you have a picture of a white bowl of a white bowl with a white bowl
+H4: i have the white bowl with the background
+
+I: [356290, 386603, 161846, 86285, 310714, 395097]
+T: 86285
+U: <sos> 3 chili dogs and a red tray with french fries <eos>
+P: <nohs>
+A: <nohs>
+R: ['3 chili dogs and a red tray with french fries', 'the white bowl with the salad and the red drink behind it ?', 'white bowl with some greens ?', 'the white bowl with the salad green ?']
+H42: i have the same picture of the red stuff on the table
+H1: do you have a picture of a brown dog on a table ?
+H2: do you have the white bowl with the pink and the black mug ?
+H3: i have a picture of a white bowl with a fork
+H4: white bowl with the background
+
+I: [260248, 86285, 386603, 161846, 244425, 395097]
+T: 86285
+U: <sos> the white bowl with the salad and the red drink behind it ? <eos>
+P: <sos> 3 chili dogs and a red tray with french fries <eos>
+A: <sos> 3 chili dogs and a red tray with french fries <eos>
+R: ['3 chili dogs and a red tray with french fries', 'the white bowl with the salad and the red drink behind it ?', 'white bowl with some greens ?', 'the white bowl with the salad green ?']
+H42: i have the red stuff on the table
+H1: do you have a picture of a brown dog on a table ?
+H2: i have a white bowl of salad with a gla * s
+H3: i also have the one with the one with the one with the fork and a fork on it
+H4: white bowl
+
+I: [86285, 132002, 386603, 244425, 260248, 492731]
+T: 86285
+U: <sos> white bowl with some greens ? <eos>
+P: <sos> the white bowl with the salad and the red drink behind it ? <eos>
+A: <sos> the white bowl with the salad and the red drink behind it ? <eos>
+R: ['3 chili dogs and a red tray with french fries', 'the white bowl with the salad and the red drink behind it ?', 'white bowl with some greens ?', 'the white bowl with the salad green ?']
+H42: i have a white bowl with a wine gla * s
+H1: do you have a picture of a red and white bowl of a green top of green stuff on it
+H2: i have a white bowl of food and a bookshelf
+H3: do you have the one with a white bowl of a white bowl with a red and white bowl
+H4: white bowl

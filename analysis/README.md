@@ -9,6 +9,12 @@ Run python script from this directory:
 python src/lingusitic_analysis data/model_output1 data/model_output2 data/model_output3
 
 
+this will result in the following output files:
+
+- firstVlater_stats_out.csv: statistics for the utterances in the first vs later referring expressions in the chain.
+
+- reuse_stats_out.csv: statistics describing the differences between first and later utterances, in terms of the language reuse.
+
 ## Data
 
 The expected format of the input data is the following:
