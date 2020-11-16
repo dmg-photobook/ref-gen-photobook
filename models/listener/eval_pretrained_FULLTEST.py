@@ -33,8 +33,6 @@ def evaluate_trained_model(split_data_loader, split_dataset, model, device):
 
         prev_hist = data['prev_histories']
 
-        # ONLY IF THE TARGET IMAGE HAS HISTORY
-
         out = model(utterances_BERT, lengths, context_separate, context_concat, prev_hist, masks, device)
 
         preds = torch.argmax(out, dim=1)
