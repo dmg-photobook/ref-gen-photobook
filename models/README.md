@@ -15,6 +15,18 @@ We use a different naming convention in the repository as compared to paper:
 
 In speaker/utils/new_dataset_processor.py, we provide the code for processing the utterance-based reference chains for Ref and ReRef generation models. For the Copy model, however, we use speaker/utils/new_dataset_processor_copy.py, as it needs to keep track of the original forms of <unk> tokens. 
 
+To train the Ref model, an example command would be:
+
+``python train_speaker_generic.py -dropout 0.3 -metric bert -batch_size 32 -model_type base -reduction sum -subset_size -1 -seed 42 -learning_rate 0.0001 -beam_size 3 -embedding_dim 1024 -shuffle``
+
+To train the ReRef model, an example command would be:
+
+``python train_speaker_generic.py -dropout 0.3 -metric bert -batch_size 16 -model_type hist_att -reduction sum -subset_size -1 -seed 42 -learning_rate 0.0001 -beam_size 3 -embedding_dim 1024 -shuffle``
+
+To train the Copy model, an example command would be:
+
+``python train_speaker_generic_COPY.py -metric bert -batch_size 32 -model_type copy -reduction sum -subset_size -1 -seed 42 -learning_rate 0.0001 -beam_size 3 -embedding_dim 1024 -shuffle``
+
 Generated outputs from the 5 runs of models along with their contexts for the test sets are obtained in compare_ref_hyp_* scripts and provided in:
 
 - generated_outputs_model_all_base_TEST.txt
@@ -32,7 +44,20 @@ We use a different naming convention in the repository as compared to paper:
 
 In **listener/utils/new_dataset_processor_BERT.py**, we provide the code for processing the utterance-based reference chains (getting the image contexts, target image and linguistic context). Here, we also convert the linguistic input into BERT representations.
 
-eval_* scripts run evaluations of various pretrained models depending on whether we are looking at only the first utterances or cases where the target image has history.
+To train the proposed model, an example command would be:
+
+``python train_listener_bert_CE_generic.py -dropout 0.5 -batch_size 32 -bert_type base -model_type bert_att_ctx_hist -reduction sum -subset_size -1 -seed 42 -learning_rate 0.0001 -shuffle``
+
+To train the ablated model, an example command would be:
+
+``python train_listener_bert_CE_generic.py -dropout 0.5 -batch_size 32 -bert_type base -model_type bert_att_ctx -reduction sum -subset_size -1 -seed 42 -learning_rate 0.0001 -shuffle``
+
+To train the one-hot baseline, an example command would be:
+
+``python train_listener_bert_CE_generic_BASELINES_1H.py -batch_size 32 -bert_type base -model_type baseline_1H -reduction sum -subset_size -1 -seed 42 -learning_rate 0.0001 -shuffle``
+
+
+eval_* scripts run evaluations of various pretrained models depending on whether we are looking at only the first utterances or the cases where the target image already has conversational history.
 
 
 # Inputting generation model outputs into reference resolution models
