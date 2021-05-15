@@ -2,7 +2,11 @@
 
 This directory contains the model definitions and scripts to train, evaluate and compare the models.
 
-Processed data and pretrained models will be available later.
+You can download the pretrained models from [this link](https://uva.data.surfsara.nl/index.php/s/wlnq5rhG3VxFqjb).
+
+To preprocess the data for the Ref and ReRef models, you should run speaker/utils/new_dataset_processor.py. For the Copy model, please run speaker/utils/new_dataset_processor_copy.py.
+
+To preprocess the data for the listener model, please run listener/utils/new_dataset_processor_BERT.py.
 
 # Generation models (speaker):
 We use a different naming convention in the repository as compared to paper:

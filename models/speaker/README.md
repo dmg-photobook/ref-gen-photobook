@@ -4,7 +4,9 @@ This directory contains the model definitions and scripts to preprocess data, tr
 
 Please take a look at the README file in the **models** folder for more details on how to train and evaluate these models.
 
-Processed data and pretrained models will be available later.
+You can download the pretrained speaker models from [this link](https://uva.data.surfsara.nl/index.php/s/iiactCdOHfl3s2N) (best run per model type).
+
+To preprocess the data for the Ref and ReRef models, you should run speaker/utils/new_dataset_processor.py. For the Copy model, please run speaker/utils/new_dataset_processor_copy.py.
 
 The naming conventions in the paper are different from what we had used in the code:
 
