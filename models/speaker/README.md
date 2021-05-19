@@ -4,7 +4,7 @@ This directory contains the model definitions and scripts to preprocess data, tr
 
 Please take a look at the README file in the **models** folder for more details on how to train and evaluate these models.
 
-You can download the pretrained speaker models from [this link](https://uva.data.surfsara.nl/index.php/s/iiactCdOHfl3s2N) (best run per model type).
+You can download the pretrained speaker models from [this link](https://uva.data.surfsara.nl/index.php/s/iiactCdOHfl3s2N) (best run per model type indicated below).
 
 The naming conventions in the paper are different from what we had used in the code:
 
